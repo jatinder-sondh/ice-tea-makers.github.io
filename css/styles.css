@@ -1,7 +1,7 @@
 /*
 Author: Jatinder Kaur
 Student Number: c0944170
-File Name: iceteamaker.css
+File Name: styles.css
 TERM PROJECT
 */
 
@@ -16,7 +16,6 @@ div,
 img,
 ul,
 figure,
-figcaption,
 section,
 article,
 aside,
@@ -25,8 +24,7 @@ table,
 caption,
 td,
 aside,
-figure,
-figcaption {
+figure {
   margin: 0;
   padding: 0;
   border: 0;
@@ -41,6 +39,7 @@ body {
   background-color: #e1a131;
   height: 100%;
   margin: 0;
+  font-family: "GFS Didot", serif;
 }
 
 html {
@@ -61,39 +60,17 @@ img {
   width: 100%;
   height: 600px;
   object-fit: cover;
-  border: 2px solid #8cc63f;
   overflow: hidden;
-}
-
-.offer {
-  max-width: 45%;
-  border-radius: 60px;
-  width: 50%;
-  border: 5px solid #8cc63f;
-}
-
-.floorlamp {
-  width: 30%;
-  border-radius: 40px;
-  border: 5px solid #8cc63f;
-  float: left;
-  margin-left: 15%;
-}
-
-.png {
-  max-width: 10%;
 }
 
 /* Style rule for header */
 header {
   width: 100%;
-  /* height: 150px; */
   overflow: hidden;
   background-color: #e1a131;
 }
 
 h1 {
-  font-family: "GFS Didot", serif;
   text-align: center;
   margin-top: 5px;
   color: #ffffff;
@@ -106,7 +83,6 @@ h1 span {
 }
 
 h2 {
-  font-family: "GFS Didot", serif;
   text-align: center;
   margin-top: 20px;
   color: #fff;
@@ -114,7 +90,6 @@ h2 {
 }
 
 h3 {
-  font-family: "GFS Didot", serif;
   text-align: center;
   margin-top: 0px;
   color: #8cc63f;
@@ -126,7 +101,6 @@ h3 {
   color: #ffffffb9;
   display: flex;
   justify-content: center;
-  font-family: "GFS Didot", serif;
   float: right;
   margin: 50px 0px;
 }
@@ -141,7 +115,6 @@ h3 {
 .nav li {
   margin-right: 20px;
   list-style-type: none;
-  font-family: "GFS Didot", serif;
   font-size: 1.5em;
 }
 
@@ -165,24 +138,8 @@ article {
   margin: 0;
 }
 
-#mission {
-  font-weight: bold;
-}
-
 main p {
   text-align: center;
-}
-
-body {
-  font-family: "GFS Didot", serif;
-  font-size: 1em;
-  line-height: 1.6;
-}
-
-.urgent {
-  font-size: 1.75em;
-  font-weight: bold;
-  color: #8cc63f;
 }
 
 a {
@@ -190,14 +147,40 @@ a {
   justify-content: center;
 }
 
-.tripod {
-  font-weight: bold;
-  color: #8cc63f;
-  font-style: italic;
-}
-
 .text-white {
   color: #fff;
+}
+
+.space{
+  padding: 30px 0px;
+}
+
+.about-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.about-content .image {
+  flex: 1 1 45%;
+  text-align: center;
+}
+
+.about-content .description {
+  flex: 1 1 45%;
+  text-align: left;
+  padding: 20px;
+  color: #fff;
+}
+
+.about-content .image img {
+  width: 100%;
+  height: 350px;
+  border-radius: 100%;
+  object-fit: cover;
+  max-width: 350px;
 }
 
 .banner {
@@ -221,13 +204,6 @@ a {
   flex-direction: column;
   border-bottom: 1px solid #fff;
 }
-.product-image {
-  width: 400px;
-  height: 400px;
-  margin: 20px;
-  border: 1px solid #ccc;
-  object-fit: cover;
-}
 
 .weekly-sales {
   padding-top: 50px;
@@ -245,7 +221,7 @@ a {
   margin-bottom: 20px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
 }
 .guarantee {
   background-color: #f7f7f7;
@@ -305,156 +281,11 @@ p span {
   margin-bottom: 10px;
 }
 
-.map {
-  border: 2px solid #000;
-  width: 95%;
-  height: 50%;
-}
-
-#loveIced Tea {
-  font-family: "GFS Didot", serif;
-  align-content: center;
-  align-items: flex-start;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-#contact {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
-}
-
 .homecontact {
   text-decoration: none;
   font-weight: 100;
   font-size: xx-large;
   color: #8cc63f;
-}
-
-aside {
-  margin-top: 20px;
-  margin-left: 20px;
-  background-color: #8cc63f;
-  color: #e1a131;
-  box-shadow: 5px 5px 8px #000;
-  border-radius: 0 15px;
-}
-
-aside h2 {
-  color: #cce;
-  margin: 0;
-}
-
-aside p {
-  margin: 0;
-}
-
-figure {
-  margin: 20px 0;
-  text-align: center;
-}
-
-.home-menu {
-  margin: 0;
-  padding: 0;
-}
-
-figcaption {
-  text-align: center;
-  font-weight: bold;
-}
-
-.team {
-  width: 80%;
-  border-radius: 40px;
-  border: 5px solid #8cc63f;
-  box-shadow: 5px 5px 8px #000;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-/* Style rules for form elements */
-form {
-  display: grid;
-  width: 90%;
-  justify-content: center;
-}
-
-fieldset,
-input,
-select,
-textarea {
-  margin-bottom: auto;
-  align-items: center;
-}
-
-fieldset {
-  border: 2px solid #8cc63f;
-  box-shadow: 3px 3px 3px #8cc63f;
-  border-radius: 40px;
-}
-
-.form-grid {
-  display: grid;
-  grid-template-columns: auto / auto auto;
-  grid-gap: 20px;
-}
-
-fieldset legend {
-  font-weight: bold;
-  font-size: 1.25em;
-  text-align: center;
-  color: #8cc63f;
-}
-
-label {
-  display: flex;
-  padding-top: 3%;
-  justify-content: center;
-}
-
-input * {
-  width: 95%;
-  box-sizing: border-box;
-  padding: 8px;
-  margin-bottom: 10px;
-  border-radius: 10px;
-  align-items: center;
-}
-
-textarea {
-  width: 100%;
-  display: flex;
-  border-radius: 10px;
-}
-
-#how-heard {
-  width: 100%;
-  height: max-content;
-}
-
-.asterik {
-  color: red;
-}
-
-.btn {
-  border: 3px solid #ccc;
-  font-family: "GFS Didot", serif;
-  display: block;
-  padding: 1%;
-  background-color: #8cc63f;
-  font-size: 1em;
-  border-radius: 10px;
-  color: #ccc;
-}
-
-#best-date {
-  display: flex;
-  justify-content: center;
 }
 
 /*Style Rules for Lists*/
@@ -467,62 +298,11 @@ main li {
   text-align: center;
 }
 
-/*Style Rules foe Tables*/
-table {
-  border-collapse: collapse;
-  border: 4px solid #8cc63f;
-  justify-content: center;
-  display: block;
-  padding: 2%;
-}
-
-caption {
-  font-size: 1.7em;
-  font-weight: bold;
-  padding: 1%;
-  color: #8cc63f;
-}
-
-th,
-td {
-  border-collapse: collapse;
-  padding: 1%;
-  border: 2px solid #8cc63f;
-  text-align: center;
-}
-
-th {
-  background-color: #8cc63f;
-  color: #fff;
-  width: 22%;
-}
-
-tr:nth-child(odd) {
-  background-color: #c5d281;
-}
-
-tr:hover {
-  background-color: rgb(109, 90, 231);
-}
-
-.frame {
-  opacity: 0.9;
-}
-
-.frame:hover {
-  opacity: 1;
-  box-shadow: 8px 8px 10px #8cc63f;
-}
-
 /* Apply styles to the main grid container */
 .grid {
   display: grid;
   grid-gap: 5px;
   grid-template-columns: auto auto;
-}
-
-#lastarticle {
-  align-items: center;
 }
 
 /* Style for the section element */
@@ -533,25 +313,6 @@ section {
   border-radius: 8px;
   border: 2px solid #8cc63f;
   background: #eee;
-}
-
-/* Style for the quote element */
-.quote {
-  font-style: italic;
-}
-
-/* Emphasized quote class */
-.emphasized {
-  color: #ccc;
-}
-
-video {
-  width: 80%;
-  display: grid;
-  justify-content: center;
-  border: 3px solid #8cc63f;
-  padding: 5%;
-  margin: 3%;
 }
 
 /* Style rules for footer content */
@@ -577,23 +338,12 @@ footer p a {
 
 /* Responsive styles for smaller screens */
 @media only screen and (max-width: 768px) {
+  .about-content{
+    flex-direction: column;
+  }
   .logo {
     max-width: 100%;
     margin: 0 auto;
-  }
-
-  .hero {
-    border: 3px solid #8cc63f;
-  }
-
-  .offer {
-    max-width: 100%;
-    width: 100%;
-  }
-
-  .floorlamp {
-    width: 100%;
-    margin-left: 0;
   }
 
   .nav ul {
@@ -615,39 +365,21 @@ footer p a {
   main {
     margin: 5%;
   }
-  #loveIced Tea {
-    flex-direction: column;
-    text-align: center;
-  }
 
   .grid {
     grid-template-columns: 100%;
   }
+
   .features .container {
     flex-direction: column;
-  }
-  .frame {
-    box-shadow: none;
-  }
-
-  #lastarticle {
-    text-align: center;
   }
 
   section {
     margin: 20px;
   }
 
-  video {
-    width: 100%;
-  }
-
   p {
-    font-size: 0.8em;
-  }
-
-  #training-table {
-    width: fit-content;
+    font-size: 1.2em;
   }
 }
 
