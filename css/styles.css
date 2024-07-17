@@ -293,11 +293,6 @@ ul {
   list-style-type: none;
 }
 
-main li {
-  padding: 2%;
-  text-align: center;
-}
-
 /* Apply styles to the main grid container */
 .grid {
   display: grid;
@@ -313,6 +308,11 @@ section {
   border-radius: 8px;
   border: 2px solid #8cc63f;
   background: #eee;
+}
+
+
+.text-center{
+  text-align: center;
 }
 
 /* Style rules for footer content */

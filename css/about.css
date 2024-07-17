@@ -1,0 +1,18 @@
+/* About us */
+.our-guarantee {
+    background-image: url('../images/our-guarantee-background.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: #fff;
+    width: 100%;
+  }
+  
+  .our-guarantee .guarantee-content {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 80px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    margin: 0 auto;
+  }
+  
