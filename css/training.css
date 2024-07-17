@@ -38,4 +38,5 @@ tr:hover {
     margin: auto;
     max-width: 1000px;
     overflow: auto;
+    margin-bottom: 40px;
 }
