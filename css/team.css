@@ -9,7 +9,8 @@
 .team-member {
     width: 300px;
     margin: 20px;
-    background-color: #fff;
+    background-color: #e1a131;
+    color: #fff;
     box-shadow: 0 0 15px rgba(0,0,0,0.1);
     border-radius: 8px;
     overflow: hidden;
@@ -27,21 +28,26 @@
 }
 
 .member-info {
-    padding: 20px;
     text-align: center;
 }
 
+figure img{
+    border-radius: 10px;
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+}
 .member-info h2 {
     margin-bottom: 10px;
-    color: #333;
-}
-
-.member-info p {
-    color: #777;
+    color: #fff;
 }
 
 .executives,
 .who-we-are,
 .departments {
     margin-bottom: 40px;
+}
+
+figcaption{
+    margin-top: 20px;
 }
