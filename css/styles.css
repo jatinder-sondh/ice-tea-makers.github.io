@@ -99,6 +99,20 @@ p,
 li {
   font-size: 20px;
 }
+
+.primary-button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 0.8em 1.5em;
+  border-radius: 5px;
+  font-size: 1em;
+  width: fit-content;
+  margin: auto;
+  text-decoration: none;
+}
+
+
 /* Style for rules for navigation area */
 .nav {
   color: #ffffffb9;
