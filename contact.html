@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<!-- 
+	TERM PROJECT
+	Student Name: Jatinder Kaur
+	Student Number: c0944170
+    Page: TEAM
+ -->
+<html lang="en">
+
+<head>
+    <title>Team - Ice Tea Maker</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/contact.css" />
+    <link rel="shortcut icon" href="./images/logoice.ico" />
+    <meta name="viewport" content="width=device-width, initial scale=1.0" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&family=GFS+Didot&family=Roboto&display=swap"
+        rel="stylesheet" />
+</head>
+
+<body>
+    <!-- Use the header area for the website name or logo -->
+    <header>
+        <a href="index.html" class="logo"><img src="images/icetea.png" alt="Ice Tea Maker logo" /></a>
+        <!-- Use the nav area to add hyperlinks and other pages within the website -->
+        <nav class="nav">
+            <ul class="row">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="team.html">Our Team</a></li>
+                <li><a href="specials.html">Specials</a></li>
+                <li><a href="training.html">Training</a></li>
+                <li><a href="media.html">Media</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <form action="/submit_contact_form" method="post">
+            <fieldset>
+                <legend>Contact Information</legend>
+                <ol>
+                    <li>Please fill in the form below to contact us.</li>
+                    <li>Make sure to provide accurate information.</li>
+                </ol>
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required autofocus placeholder="Your Name" size="30">
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required placeholder="Your Email">
+                </div>
+                
+                <div class="form-group">
+                    <label for="birthdate">Date of Birth:</label>
+                    <input type="date" id="birthdate" name="birthdate">
+                </div>
+                
+                <div class="form-group">
+                    <label for="gender">Gender:</label>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label>
+                </div>
+                
+                <div class="form-group">
+                    <label for="newsletter">Newsletter:</label>
+                    <input type="checkbox" id="newsletter" name="newsletter" value="yes">
+                    <label for="newsletter">Subscribe to our newsletter</label>
+                </div>
+                
+                <div class="form-group">
+                    <label for="inquiry">Inquiry Type:</label>
+                    <select id="inquiry" name="inquiry">
+                        <option value="general">General Inquiry</option>
+                        <option value="support">Support</option>
+                        <option value="feedback">Feedback</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" cols="50" placeholder="Your Message"></textarea>
+                </div>
+                
+                <div class="form-group buttons">
+                    <button type="submit">Submit Request</button>
+                    <button type="reset">Reset Form</button>
+                </div>
+            </fieldset>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; Copyright 2024.&#169; All Rights Reserved.</p>
+        <p>Jatinder Kaur. Student Number: c0944170</p>
+        <p>
+            Request Information:<a href="mailto:contact@icetea.com">contact@icetea.com</a>
+        </p>
+    </footer>
+</body>
+
+</html>
